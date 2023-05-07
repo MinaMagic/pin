@@ -1,0 +1,141 @@
+
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 82px;
+    border-bottom: 2px solid #c81523;
+}
+.header .logo {
+    padding-top: 18px;
+}
+.registerarea {
+    height: 522px;
+    margin-top: 12px;
+    border: 1px solid #cccccc;
+}
+.registerarea h3 {
+    height: 42px;
+    font-size: 18px;
+    padding: 0 10px;
+    background-color: #ececec;
+    line-height: 42px;
+    font-weight: 400;
+}
+.registerarea .login {
+    float: right;
+    font-size: 14px;
+}
+.registerarea .login a {
+    color :#c81523
+}
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+    font-size: 14px;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+}
+.reg_form .error {
+    line-height: 36px;
+    font-size: 12px;
+    color:#c81523;
+}
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+.error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.reg_form .success {
+    line-height: 36px;
+    font-size: 12px;
+    color :#3cba39;
+}
+.safe {
+    padding-left: 170px;
+}
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+.safe .ruo {
+    background-color: #c81523;
+}
+.safe .zhong {
+    background-color: #3cba39;
+}
+.safe .qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 95px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 70px;
+}
+.unactive {
+    background-color: #f3f3f3;
+    color: #c6c6c6;
+}
+ice_txt p {
+    font-size: 12px;
+}
+.mod_help {
+    height: 190px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_help dl {
+    float: left;
+    width: 150px;
+    margin: 25px 0 0 50px;
+}
+.mod_help dl dt {
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+.mod_help dl dd {
+    font-size: 12px;
+}
+.mod_help dl:last-child {
+    text-align: center;
+}
+.mod_copyright {
+    height: 120px;
+    margin-top: 20px;
+    text-align: center;
+}
+.mod_copyright .copyright {
+    margin-top: 15px;
+}

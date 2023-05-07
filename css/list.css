@@ -1,0 +1,56 @@
+.sk{
+    position: relative;
+}
+.sk img {
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    border-left: #c81523 1px solid;
+    padding-left: 12px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+    padding: 0 28px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.sk_list ul li a {
+    color: #000000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    position: relative;
+    float: left;
+    line-height: 46px;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #666666;
+}
+.sk_con ul li:last-child a::after {
+    position: absolute;
+    top: -5px;
+    content: '\ea50';
+    font-family: 'icomoon';
+}
+.sk_bd {
+    float: left;
+}
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #b1181a;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
